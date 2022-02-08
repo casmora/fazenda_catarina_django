@@ -30,7 +30,7 @@ ALLOWED_HOSTS = ['*',
    'http://fazenda-catarina.herokuapp.com/',
    'https://fazenda-catarina.herokuapp.com/',
    'fazenda-catarina.herokuapp.com',
-    'fazenda-catarina.herokuapp.com/',
+   'fazenda-catarina.herokuapp.com/',
    '127.0.0.1',]
 
 
@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
-    'rest_framework',
     
 ]
 
