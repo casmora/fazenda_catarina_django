@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-f4$o(*l=2c^n0i028hs11+x$+5pl2nu8@r$q5=%78l(%3gty=8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*','http://fazenda-catarina.herokuapp.com/',
+   'https://fazenda-catarina.herokuapp.com/',
+   'fazenda-catarina.herokuapp.com',
+   'livraria-intro-django.herokuapp.com/',
+   '127.0.0.1',]
 
 
 # Application definition
